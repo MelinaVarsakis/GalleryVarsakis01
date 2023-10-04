@@ -1502,7 +1502,8 @@ ol li a {
     flex-wrap: wrap;
     width: 1380px;
     height: 2670px;
-    justify-content: flex-start;
+    justify-content: center;
+    flex: 1;
 }
 
 .Exis img {
@@ -1807,7 +1808,7 @@ ol li a {
 .containerMon h4 {
     font-size: 1.3em;
     font-family: 'Oxygen', sans-serif;
-    color: #0d0000;
+    color: #000000;
     text-align: center;
     font-weight: 800;
     margin: 5px 0 5px 0;
@@ -1836,7 +1837,7 @@ ol li a {
 .containerMon p:nth-of-type(2) {
     font-size: 1.2em;
     font-family: 'Oxygen', sans-serif;
-    color: #110205;
+    color: #0b0000;
     text-align: center;
     font-weight: 800;
     padding: 8px;
@@ -1956,4 +1957,12 @@ ol li a {
     background-color: rgb(125, 63, 63);
     height: 110px;
     border-bottom: 3px black solid;
+}
+.Exis {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    height: 2670px;
+    justify-content: center;
+    flex: 1;
 }
