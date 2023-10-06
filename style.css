@@ -53,7 +53,7 @@ body {
     font-weight: 900;
     text-decoration: underline;
     font-size: 2em;
-    margin-left: 0 30px 0 10px;
+    margin: 0 30px 0 0 ;
     background-color: #ace058;
     border: 2px black solid;
     width: 200px;
@@ -203,7 +203,6 @@ h1 {
     width: 920px;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: flex-start;
     align-items: center;
 }
 
@@ -214,8 +213,6 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex: wrap;
-
 }
 
 .container1 {
@@ -225,7 +222,6 @@ h1 {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: flex-start;
-
 }
 
 .container4 {
@@ -235,7 +231,7 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex: wrap;
+    flex-wrap: wrap;
 }
 
 .container5 {
@@ -245,7 +241,7 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex: wrap;
+    flex-wrap: wrap;
 
 }
 
@@ -268,7 +264,6 @@ main {
     background-position: center;
     flex-wrap: wrap;
     justify-content: center;
-
 }
 
 Footer {
@@ -655,7 +650,7 @@ ol li a {
 }
 
 .containermal p:nth-of-type(1) {
-    font-size: 1.em;
+    font-size: 1em;
     font-family: 'Oxygen', sans-serif;
     color: #def4d9;
     text-align: center;
